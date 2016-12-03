@@ -2,7 +2,7 @@
 #Define Paths
 dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 dest=~/xda/GPE_M8_Kernel
-dtbTool=~toolchains/dtbToolCM
+dtbTool=~/toolchains/dtbToolCM
 date=$(date +%d-%m-%y)
 rm -r $dest
 export PATH=~/toolchains/arm/linaro_5.2/bin:$PATH
